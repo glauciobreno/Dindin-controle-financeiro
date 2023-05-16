@@ -1,0 +1,58 @@
+.header_home {
+  width: 100%;
+  height: 224px;
+  background: linear-gradient(90.23deg, #05ede3 0.02%, #645ffb 99.63%);
+  align-items: center;
+}
+
+.header_content-home {
+  min-width: 85%;
+  margin-top: 40px;
+  gap: 8px;
+}
+
+.header_logo {
+  width: 169px;
+  height: 49px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.header_profile {
+  min-width: 200px;
+  height: 56px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.avatar {
+  width: 56px;
+  height: 56px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.avatar:hover {
+  cursor: pointer;
+}
+
+.header_username {
+  color: var(--white);
+}
+
+.logout {
+  margin-left: 12px;
+  width: 22px;
+  height: 27px;
+  background-color: transparent;
+  border: none;
+}
+
+.avatar,
+.logout:hover {
+  transform: scale(1.08);
+  cursor: pointer;
+}

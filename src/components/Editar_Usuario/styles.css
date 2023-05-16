@@ -1,0 +1,138 @@
+.container-put {
+  background: rgba(61, 61, 61, 0.48);
+  height: 2000px;
+  width: 100%;
+  z-index: 100;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+}
+
+.form-put_register {
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 413px;
+  height: 600px;
+  margin-top: 100px;
+  border-radius: 20px;
+}
+
+.form-put_register a button {
+  all: unset;
+  text-decoration: none;
+}
+
+.form-put_register a {
+  all: unset;
+  text-decoration: none;
+  margin-top: 15px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #7b61ff;
+  cursor: pointer;
+}
+
+.form-put_register h1 {
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 33px;
+  color: rgb(0, 0, 0);
+  margin-top: 40px;
+  margin-bottom: 30px;
+  margin-right: 180px;
+}
+
+.form-put_register_label {
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #484848;
+  margin-bottom: 8px;
+}
+
+.form-put_register_input {
+  all: unset;
+  background: #ffffff;
+  border: 1px solid #555555;
+  border-radius: 5px;
+  width: 350px;
+  height: 43px;
+  margin-bottom: 8px;
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-size: 18px;
+  padding: 2px;
+  color: #484848;
+}
+
+.group-put_input {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-put_register__btn {
+  all: unset;
+  text-align: center;
+  background: #7978d9;
+  border-radius: 5px;
+  width: 350px;
+  height: 43px;
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  color: #ffffff;
+  margin-top: 25px;
+  cursor: pointer;
+}
+
+.btn-close {
+  all: unset;
+  position: relative;
+  top: 20px;
+  right: 15px;
+}
+
+.close-form {
+  margin-left: 370px;
+  margin-top: 10px;
+}
+
+.alert {
+  width: 100%;
+  height: 40px;
+  font-size: 18px;
+  font-weight: 500;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  color: #fff;
+  margin-top: 25px;
+
+  border-radius: 0 0 10px 10px;
+}
+
+.green {
+  background-color: #14a820;
+}
+
+.red {
+  background: #ff576b;
+}

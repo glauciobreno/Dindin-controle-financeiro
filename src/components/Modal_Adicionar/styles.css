@@ -1,0 +1,254 @@
+.modal {
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+
+  z-index: 10;
+  background: rgba(61, 61, 61, 0.2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container_modal {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  width: 470px;
+  min-height: 642px;
+
+  background: #ffffff;
+  border-radius: 20px;
+}
+
+.close {
+  all: unset;
+  width: 32px;
+  height: 32px;
+  right: calc(-100% + 50px);
+  top: 20px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.form_add {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form_add a button {
+  all: unset;
+  text-decoration: none;
+}
+
+.form_add a {
+  all: unset;
+  text-decoration: none;
+  margin-top: 15px;
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #7b61ff;
+  cursor: pointer;
+}
+
+.form_title {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 19px;
+  margin-right: 160px;
+  margin-bottom: 52px;
+  color: #000000;
+}
+
+.form_add_label {
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #484848;
+  margin-bottom: 8px;
+}
+
+.form_add_input {
+  all: unset;
+  background: #ffffff;
+  border: 1px solid #555555;
+  border-radius: 5px;
+  width: 350px;
+  height: 40px;
+  margin-bottom: 8px;
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-size: 18px;
+  padding: 2px;
+  color: #484848;
+}
+
+.select {
+  background: #ffffff;
+  border: 1px solid #555555;
+  border-radius: 5px;
+  width: 350px;
+  height: 40px;
+  margin-bottom: 8px;
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-size: 18px;
+  padding: 2px;
+  color: #484848;
+}
+
+.group_input_add {
+  display: flex;
+  flex-direction: column;
+}
+
+.form_add__btn {
+  all: unset;
+  text-align: center;
+  background: #7978d9;
+  border-radius: 5px;
+  width: 350px;
+  height: 43px;
+  font-family: "Rubik", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  color: #ffffff;
+  margin-top: 25px;
+  cursor: pointer;
+}
+
+.btn_input {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 30px;
+}
+
+.btn_input:after {
+  content: "";
+  clear: both;
+}
+
+.radio {
+  box-sizing: border-box;
+  float: left;
+  height: 50px;
+  width: 175px;
+  position: relative;
+}
+
+.btn1 {
+  border-radius: 10px 0px 0px 10px;
+}
+
+.btn2 {
+  border-radius: 0px 10px 10px 0px;
+}
+
+.radio + .radio {
+  margin-left: 0px;
+}
+
+.radio label {
+  background: #fff no-repeat center center;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  white-space: nowrap;
+}
+
+.radio label span {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  z-index: 1;
+}
+
+.btn1 label input[type="radio"] {
+  all: unset;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: #b9b9b9;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.btn2 label input[type="radio"] {
+  all: unset;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: #b9b9b9;
+  border-radius: 0px 10px 10px 0px;
+}
+
+.btn1 label input[type="radio"]:checked {
+  background: #3a9ff1;
+  margin-bottom: 30px;
+}
+
+.btn2 label input[type="radio"]:checked {
+  background: #ff576b;
+  margin-bottom: 30px;
+}
+
+.radio label input[type="radio"]:checked + span {
+  color: #ffffff;
+}
+
+.alert {
+  width: 100%;
+  height: 40px;
+  font-size: 18px;
+  font-weight: 500;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  margin-top: 25px;
+  border-radius: 0 0 10px 10px;
+}
+
+.green {
+  background-color: #14a820;
+}
+
+.red {
+  background: #ff576b;
+}
+
+#categoria,
+#data {
+  align-items: center;
+  cursor: pointer;
+}

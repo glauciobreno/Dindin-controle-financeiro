@@ -1,0 +1,129 @@
+.container-login {
+  background-image: url("../../assets/background.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form_login {
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 513px;
+  height: 535px;
+  margin-left: 805px;
+}
+
+.form_login h1 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 28px;
+  line-height: 33px;
+  color: #7978d9;
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+.form_login_label {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #484848;
+  margin-top: 30px;
+  margin-bottom: 15px;
+  margin-right: 430px;
+}
+
+.form_login_input {
+  background: #ffffff;
+  border: 1px solid #555555;
+  border-radius: 5px;
+  width: 490px;
+  height: 63px;
+  margin-bottom: 8px;
+  padding: 5px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #484848;
+}
+
+.form_login_btn {
+  all: unset;
+  text-align: center;
+  background: #7978d9;
+  border-radius: 5px;
+  width: 490px;
+  height: 57px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  color: #ffffff;
+  margin-top: 50px;
+  line-height: 21px;
+  cursor: pointer;
+}
+
+.container-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 614px;
+  height: 340px;
+  color: #ffffff;
+  margin-top: 200px;
+  margin-right: 728px;
+  position: absolute;
+  margin-left: 120px;
+}
+
+.container-info h1 {
+  text-align: unset;
+}
+
+.purple {
+  color: #7978d9;
+}
+
+.container-info p {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 33px;
+  display: flex;
+  align-items: center;
+  margin-top: 33px;
+  margin-bottom: 43px;
+}
+
+.form_register_btn {
+  all: unset;
+  text-align: center;
+  background: #7978d9;
+  border-radius: 5px;
+  width: 350px;
+  height: 70px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  color: #ffffff;
+  line-height: 21px;
+  cursor: pointer;
+}
+
+.container-info a {
+  text-decoration: none;
+}
